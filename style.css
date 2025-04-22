@@ -1,0 +1,74 @@
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "Segoe UI", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+header, footer {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+
+header img, footer img {
+  max-width: 100%;
+  height: auto;
+}
+
+header h1 {
+  margin: 10px 0;
+  font-size: 1.8em;
+  color: #2c3e50;
+}
+
+main.article {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+main.article h2 {
+  color: #e67e22;
+  border-left: 5px solid #e67e22;
+  padding-left: 10px;
+}
+
+main.article h3 {
+  margin-top: 30px;
+  color: #2c3e50;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+main.article p {
+  margin: 10px 0;
+}
+
+main.article ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+main.article ul li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.ad {
+  margin: 30px 0;
+  padding: 15px;
+  background-color: #f0f0f0;
+  text-align: center;
+  border: 1px dashed #aaa;
+}
