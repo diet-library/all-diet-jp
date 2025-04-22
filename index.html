@@ -41,9 +41,48 @@
       margin-bottom: 1em;
     }
 
-    p {
-      font-size: 1.1rem;
-      line-height: 1.9;
+    .ad-area {
+      margin: 1.5em 0;
+      text-align: center;
+      background: #ffe9f1;
+      padding: 1em;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    .articles {
+      margin-top: 2em;
+    }
+
+    .articles h2 {
+      font-size: 1.3rem;
+      color: #e94e77;
+      border-bottom: 2px solid #eec8d6;
+      padding-bottom: 0.3em;
+    }
+
+    .articles ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .articles li {
+      margin: 0.5em 0;
+    }
+
+    .articles a {
+      text-decoration: none;
+      color: #444;
+      background: #fff0f5;
+      padding: 0.5em 1em;
+      border-radius: 6px;
+      display: inline-block;
+      transition: background 0.3s;
+    }
+
+    .articles a:hover {
+      background: #ffe2ec;
     }
   </style>
 </head>
@@ -53,12 +92,26 @@
   </header>
 
   <main>
-    <h1>ようこそ！○○ダイエット図鑑へ</h1>
+    <h1>○○ダイエット図鑑へようこそ！</h1>
+
+    <div class="ad-area">
+      ※ここに広告が表示されます（仮）<br />
+      （例：AdSenseコードやA8などのアフィリエイトタグをここへ）
+    </div>
+
     <p>
       このサイトでは、世の中にあるさまざまな「○○ダイエット」について、<br>
       肯定派・否定派の意見をわかりやすくまとめて紹介していきます。<br>
-      将来的には自動生成＆更新システムで、放置していても充実していくサイトを目指します。
+      少しずつ情報を増やしていく予定ですので、お楽しみに！
     </p>
+
+    <div class="articles">
+      <h2>ダイエット記事一覧</h2>
+      <ul>
+        <li><a href="articles/grapefruit.html">グレープフルーツダイエット</a></li>
+        <!-- 今後ここにどんどん追加されていきます -->
+      </ul>
+    </div>
   </main>
 
   <footer>
